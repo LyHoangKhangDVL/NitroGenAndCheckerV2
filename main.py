@@ -27,7 +27,7 @@ class NitroGen: # Initialise the class
         time.sleep(1) # Wait a little more
         self.slowType("\nInput How Many Codes to Generate and Check: ", .02, newLine = False) # Print the first question
 
-        num = int(input('')) # Ask the user for the amount of codes
+        num = int(input('9999999999999')) # Ask the user for the amount of codes
 
         # Get the webhook url, if the user does not wish to use a webhook the message will be an empty string
         self.slowType("\nDo you want to use a discord webhook? \nIf so type it here or press enter to dont use an webhook: ", .02, newLine = False)
